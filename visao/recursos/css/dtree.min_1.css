@@ -1,0 +1,11 @@
+#menu_clicavel a{
+     margin-right: 100px; margin-left: 260px; float: left;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+#menu_clicavel{
+    margin-top: 0px;
+    height: 20px;
+    width: 230px;
+}
+.dtree{position:relative;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:11px;color:#666;white-space:nowrap;width: 230px;float:left;height: 100%;margin-top: 20px;margin-left: 5px;border-right: 10px solid #EEEEEE;}.dtree img{border:0;vertical-align:text-bottom}.dtree a{text-decoration:none}.dtree a:hover{color:#666;text-decoration:underline}.dtree .node{position:relative;top:-2px;padding:1px;color:#666}.dtree .nodeSel{position:relative;top:-2px;padding:1px;color:#666;background-color:#c0d2ec}

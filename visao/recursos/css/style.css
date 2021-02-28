@@ -1,0 +1,1008 @@
+/* reset */
+body{
+    font-family: 'ralewayregular';
+    font-size: 12px;
+}
+
+pre{
+    text-transform: initial;
+}
+
+	html, body, div, p ,span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,
+	dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure,footer, header, hgroup, menu, 
+	nav, section, summary,time, mark, audio, video {    margin:0;    padding:0;    border:0;    outline:0;    font-size:100%;    vertical-align:baseline;    background:transparent;}
+	body { line-height:1;}
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {    display:block;}
+	nav ul, ul { list-style:none;}
+	blockquote, q {  quotes:none;}
+	blockquote:before, blockquote:after,q:before, q:after {    content:'';    content:none;}
+	a {    margin:0;    padding:0;    font-size:100%;    vertical-align:baseline;    background:transparent; text-decoration: none;}
+	ins {    background-color:#ff9;    color:#000;    text-decoration:none;}
+	mark {    background-color:#ff9;    color:#000;    font-style:italic;    font-weight:bold;}
+	del {    text-decoration: line-through;}
+	abbr[title], dfn[title] {    border-bottom:1px dotted;    cursor:help;}
+	table {    border-collapse:collapse;    border-spacing:0;}
+	hr {    display:block;    height:1px;    border:0;    border-top:1px solid #cccccc;    margin:1em 0;    padding:0;}
+	input, select {    vertical-align:middle;}
+
+/* fim reset */
+
+/* fontes */
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fontes/ralewaybold/raleway-bold-webfont.eot');
+    src: url('fontes/ralewaybold/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/ralewaybold/raleway-bold-webfont.woff') format('woff'),
+         url('fontes/ralewaybold/raleway-bold-webfont.ttf') format('truetype'),
+         url('fontes/ralewaybold/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fontes/ralewayregular/raleway-regular-webfont.eot');
+    src: url('fontes/ralewayregular/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/ralewayregular/raleway-regular-webfont.woff') format('woff'),
+         url('fontes/ralewayregular/raleway-regular-webfont.ttf') format('truetype'),
+         url('fontes/ralewayregular/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* fim fontes */
+
+/* geral */
+
+	* { margin:0; padding:0px;}
+	body {
+		background-image: url(imagens/icon-f-01.png);
+		background-position: top center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+	.central{ /* central do site */
+		width: 1002px;
+		 margin-right: 100px; margin-left: 260px; float: left;
+	}
+
+	.conteudo{
+		width: 1000px;
+		float: left;
+		margin: 0 2px;
+	}
+
+	header{ /* topo do site */
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.conteudo-central{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	footer{ /* roda pe do site */
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+/* fim geral */
+
+/* header */
+	#superior{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	#login-superior,#superior-home{
+		width: 100%;
+		height: auto;
+		float: left;
+		padding: 20px 0;
+		margin-top: 50px;
+		background-color: rgba(0,133,178, 0.5);
+	}
+
+	#lado-a-login-superior{
+		width: auto;
+		float: right;
+		height: auto;
+		margin-right: 15px;
+	}
+
+	.input-login-superior{
+		width: 240px;
+		height: 50px;
+		float: left;
+		margin-right: 10px;
+		padding-left: 50px;
+		padding-right: 10px;
+		background-position:  10px center;
+		background-repeat: no-repeat;
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #655245;
+		border: none;
+		cursor: pointer;
+	}
+
+	.input-a-login-superior{
+		background-image: url(imagens/icon01.png);
+	}
+
+	.input-b-login-superior{
+		background-image: url(imagens/icon02.png);
+	}
+
+	.label-login-superior{
+		width: auto;
+		height: auto;
+		float: left;
+	}
+	.label-login-superior a{
+		width: auto;
+		height: auto;
+		float: right;
+		clear: both;
+		margin-right: 10px;
+		margin-top: 2.5px;
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #ffffff;
+	}
+
+	#botao-logiar-superior{
+		width: 100px;
+		height: 50px;
+		font-size: 15px;
+		font-family: 'ralewaybold';
+		font-weight: normal;
+		color: #ffffff;
+		background-color: #0085B2;
+		border: none;
+		cursor: pointer;
+	}
+
+	#menu-superior{
+		width: auto;
+		float: left;width: 100%;
+		height: auto;
+		margin-top: 15px;
+	}
+
+	#ul-menu-superior{
+		width: 100%;
+		height: auto;
+		float: left;
+		text-align: center;
+	}
+
+	.li-ul-menu-superior{
+		width: auto;
+		height: auto;
+		display: inline-block;
+		margin: 0 5px;
+
+	}
+
+	.a-li-ul-menu-superior{
+		width: auto;
+		height: auto;
+		padding: 5px  10px;
+		text-align: center;
+		float: left;
+		font-size: 20px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #00536F;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+	}
+
+	.alternativo-a-li-ul-menu-superior{
+		font-family: 'ralewaybold';
+	}
+
+	.a-li-ul-menu-superior:hover{
+		background-color: rgba(0,133,178, 0.5);
+	}
+
+	#usuario-logado-superior-home{
+		width: 450px;
+		padding-right: 50px;
+		height: auto;
+		float: left;
+		font-size: 21px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #EDF4F8;
+	}
+
+	#usuario-logado-superior-home img{
+		width: auto;
+		height: auto;
+		vertical-align: middle;
+		margin-right: 10px;
+		margin-left: 30px; 
+	}
+
+	#condominio-logado-superior-home{
+		width: auto;
+		height: auto;
+		float: left;
+		text-align: left;
+		font-size: 17px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #EDF4F8;
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+
+	#deslogar{
+		width: 58px;
+		height: 23px;
+		float: right;
+		background: none;
+		border: 2px solid #ffffff;
+		border-radius: 5px;
+		font-size: 17px;
+		font-family: 'ralewaybold';
+		font-weight: normal;
+		color: #ffffff;
+		padding-right: 20px;
+		padding-left: 2px;
+		background-position: right center;
+		background-repeat: no-repeat;
+		background-image: url(imagens/icon06.png);
+		margin-top: 12px;
+		margin-right: 40px;
+		cursor: pointer;
+	}
+
+	
+/* fim header */
+
+
+
+/* footer */
+	#inferior{
+		width: 100%;
+		height: auto;
+		float: left;
+		background-color: rgba(34,34,34, 0.4);
+		padding: 15px 0;	
+
+
+	}
+
+	#menu-inferior{
+		width: 100%;
+		float: left;
+		height: auto;
+		text-align: center;
+	}
+
+	.ul-menu-inferior{
+		width: auto;
+		height: auto;
+		display: inline-block;
+		margin: 0 20px;
+	}
+
+	.li-ul-menu-inferior{
+		width: auto;
+		height: auto;
+		float: left;
+		clear: left;
+		margin: 2.5px 0;
+	}
+
+	.h2-li-ul-menu-inferior{
+		width: auto;
+		height: auto;
+		float: left;
+		font-size: 20px;
+		font-family: 'ralewayregular';
+		font-weight: normal;;
+		color: #ffffff;
+
+	}
+
+	.span-bold{
+		font-weight: bold;
+	}
+
+	.a-li-ul-menu-inferior{
+		width: auto;
+		height: auto;
+		float: left;
+		font-size: 20px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #ffffff;
+	}
+
+	.link-li-ul-menu-inferior{
+		padding-left: 30px;
+		background-position: 2.5px center;
+		background-repeat: no-repeat;
+		background-image: url(imagens/icon03.png);
+	}
+
+	#direitos{
+		width: 100%;
+		height: auto;
+		float: left;
+		padding: 15px;
+		margin-top: 10px;
+	}
+
+	#h2-direitos{
+		width: auto;
+		height: auto;
+		float: left;
+		font-size: 14px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #ffffff;
+	}
+
+
+/* fim footer */
+
+
+/* conteudo site */
+	
+	#slide-condominio{
+		width: 100%;
+		height: auto;
+		float: left;
+		padding: 15px 0;
+		margin: 25px 0;
+		background-color: rgba(34,34,34, 0.4);
+	}
+
+	.botao-slide{
+		width: auto;
+		height: auto;
+		padding: 37px 57px;
+		float: left;
+	}
+
+	.seta1,.seta2{
+		float: left;
+		width: auto;
+		height: auto;
+		background:none;
+		border: none;
+		cursor: pointer;
+	}
+
+	.seta1 img,.seta2 img{
+		width: auto;
+		height: auto;
+		float: left;
+	}
+
+	#trafego{
+		width: 720px;
+		height: auto;
+		float: left;
+	}
+
+	#ul-trafego{
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.li-ul-trafego{
+		width: auto;
+		height: auto;
+		display: inline-block;
+		margin:  0 10px;
+	}
+
+	.fotos-slide{
+		width: 100px;
+		height: 100px;
+		float: left;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+		border-radius: 50%;
+		background-color: #000
+	}
+
+	.fotos-slide img{
+		width: 100px;
+		height: 100px;
+		float: left;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+		border-radius: 50%;
+	}
+
+	#pagina-informativo,#pagina-lista-ocorencia,#pagina-quadro-reservas, #pagina-dados-atualizar,#pagina-cadastra-correspondencia,#pagina-cadastra-ocorrencia,#pagina-pre-reserva {
+		width: 100%;
+		height: auto;
+		float: left;
+		padding: 10px 0;
+		margin: 10px 0;
+		background-color: #ffffff;
+
+	}
+
+	.pagina{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+
+	.fechar-block-pagina{
+		width: auto;
+		height: auto;
+		float: right;
+		border: none;
+		background: none;
+		cursor: pointer;
+		margin-right: 10px;
+		clear: both;
+		outline: none;
+	}
+
+	.fechar-block-pagina img{
+		width: auto;
+		height: auto;
+		float: left;
+	}
+
+	.titulo-bloco-pagina{
+		width: auto;
+		height: auto;
+		float: left;
+		margin-top: 5px;
+		margin-left: 10px;
+		font-size: 20px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #777777;
+	}
+
+	#legenda-informativo{
+		width: auto;
+		height: auto;
+		float: left;
+		margin-left: 50px;
+		margin-top: 5px;
+	}
+
+	.p-legenda-informativo{
+		width: auto;
+		height: auto;
+		float: left;
+		margin-right: 10px;
+		margin-left: 5px;
+		margin-top: 5px;
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+	}
+
+	.span-legenda-informativo{
+		width: 23px;
+		height: 23px;
+		float: left;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+		border-radius: 50%;
+	}
+
+	.a-span-legenda{
+		background-color: #A3D800;
+	}
+
+	.b-span-legenda{
+		background-color: #333333;
+	}
+
+	.c-span-legenda{
+		background-color: #FF2626;
+	}
+
+	.a-p-legenda-informativo{
+		color: #A3D800;
+	}
+
+	.b-p-legenda-informativo{
+		color: #333333;
+	}
+
+	.c-p-legenda-informativo{
+		color: #FF2626;
+	}
+
+	#ul-informativo,#ul-lista-ocorencias,#ul-lista-reservas{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 5px;
+		text-align: center;
+	}
+
+	.li-ul-informativo{
+		width: auto;
+		height: auto;
+		display: inline-block;
+		margin: 10px;
+		text-align: left;
+	}
+
+	.bloco-li-ul-pagina-informativo{
+		width: 280px;
+		height: 230px;
+		padding: 10px;
+		background-color: #F7F7F7;
+	}
+
+	.span-bloco-li-ul-pagina-informativo{
+		float: right;
+		clear: both;
+	}
+
+	.h2-titulo-bloco-li-ul-pagina-informativo,.p-intoducao-bloco-li-ul-pagina-informativo, .p-categoria-bloco-li-ul-pagina-informativo{
+		width: 100%;
+		height: auto;
+		float: left;
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+	}
+
+	.p-intoducao-bloco-li-ul-pagina-informativo{
+		height: 100px; 
+	}
+
+	.p-categoria-bloco-li-ul-pagina-informativo{
+	margin: 2.5px 0 5px;
+	}
+
+	.a-ler-bloco-li-ul-pagina-informativo{
+		width: auto;
+		height: auto;
+		float: right;
+		padding: 6px 15px;
+		margin: 10px 0;
+		text-align: center;
+		background-color: #00A3D9;
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #FFFFFF;
+
+	}
+
+	.span-data-bloco-li-ul-pagina-informativo{
+		width: 100%;
+		height: auto;
+		float: left;
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #00A3D9;
+	}
+
+	#botao-mas-info-li-ul-informativo{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	.botao-mais-informativo{
+		width: 425px;
+		height: 45px;
+		display: inline-block;
+		border: none;
+		background-color: #00A3D9;
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #FFFFFF;
+		cursor: pointer;
+	}
+
+	.li-ul-lista-ocorencias,.li-ul-lista-reservas{
+		width: auto;
+		height: auto;
+		min-height: 50px;
+		float: left;
+		margin: 2.5px 25px;
+	}
+
+	.titulo-li-ul-lista-ocorencia,.titulo-li-ul-lista-reservas{
+		width: 950px;
+		height: 50px;
+		float: left;
+		background-color: #2D4249;
+	}
+
+	.botao-ativa-li-ul-lista{
+		width: auto;
+		height: auto;
+		float: right;
+		margin: 10px;
+		border: none;
+		background: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.botao-ativa-li-ul-lista img{
+		width: auto;
+		height: auto;
+		float: left;		
+	}
+
+	.h2-titulo-li-ul-lista-ocorencia,.h2-titulo-li-ul-lista-reservas{
+		width: auto;
+		height: auto;
+		float: left;
+		margin-left:  50px;
+		margin-top: 15px;
+		font-size: 17px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #FFFFFF;
+	}
+
+	.p-data-li-ul-lista-ocorencia,.p-data-li-ul-lista-reservas{
+		width: auto;
+		height: auto;
+		float: right;
+		margin-right:  30px;
+		margin-top: 17px;
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #FFFFFF;
+	}
+
+	.blodo-lista-ocorencia,.blodo-lista-reservas{
+		float: left;
+		width: 935px;
+		height: 250px;
+		background-color: rgba(34,34,34, 0.4);
+		margin-top: 10px;
+	}
+
+	.fomulario-atualizar-dados{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	.input-fomulario-atualizar-dados{
+		width: 438px;
+		height: 48px;
+		border: 1px solid #EEEEEE;
+		display: inline-block;
+		margin: 5px;
+		padding-left: 10px;
+		font-size: 20px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+		text-align: left;
+	}
+
+	.botao-fomulario-atualizar-dados,.botao-submit-cadastro-correspondencia,.botao-submit-cadastro-ocorrencia,.botao-submit-pre-reserva{
+		width: 345px;
+		height: 80px;
+		display: inline-block;
+		margin: 10px 2.5px;
+		font-size: 20px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #ffffff;
+		border: none;
+		cursor: pointer;
+	}
+
+	.reset-fomulario-atualizar-dados{
+		background-color: #777777;
+	}
+
+	.submit-fomulario-atualizar-dados, .botao-submit-cadastro-correspondencia,.botao-submit-cadastro-ocorrencia,.botao-submit-pre-reserva{
+		background-color:#00A3D9;
+	}
+
+	.pagina-home-logado{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 10px 0;
+	}
+
+	#menu-home-logado{
+		width: 250px;
+		height: auto;
+		float: left;
+		margin:10px; 
+	}
+
+	#ul-menu-home-logado{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.li-ul-menu-home-logado{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 2.5px 0;
+	}
+
+	.h2-titulo-li-ul-menu-home-logado{
+		width: 240px;
+		height: auto;
+		float: left;
+		padding: 14px 0; 
+		padding-left: 10px;
+		font-size: 17px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #ffffff;
+		background-color: #00A3D9;
+		background-position: 220px center ;
+		background-repeat: no-repeat;
+		background-image: url(imagens/icon12.png);
+	}
+
+	.a-link-li-ul-menu-home-logado{
+		width: 240px;
+		height: auto;
+		float: left;
+		padding: 14px 0; 
+		padding-left: 10px;
+		font-size: 17px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #ffffff;
+		cursor: pointer;
+		background-color: rgba(0, 163 ,217, 0.7);
+	}
+
+	.a-link-li-ul-menu-home-logado:hover{
+		background-color: rgba(0, 163 ,217, 1);	
+	}
+
+	#fomulario-cadastro-correspondencia,#fomulario-cadastro-ocorrencia,#fomulario-pre-reserva{
+		width: 950px;
+		height: auto;
+		float: left;
+		margin: 10px 25px;
+	}
+
+	.input-a-cadastro-correspondencia,.input-a-cadastro-ocorrencia,.input-a-pre-reserva{
+		width: 428px;
+		height: 48px;
+		float: left;
+		padding-left: 10px;
+		margin: 5px 0;
+		margin-right: 6px;
+		font-size: 19px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+		border: 1px solid #EEEEEE;
+	}
+
+	.input-b-cadastro-correspondencia{
+		width: 150px;
+		height: 48px;
+		float: left;
+		padding-left: 10px;
+		margin: 5px 0;
+		margin-right: 6px;
+		font-size: 19px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+		border: 1px solid #EEEEEE;
+	}
+
+	.select-a-cadastro-correspondencia,.select-a-cadastro-ocorrencia,.select-a-pre-reserva{
+		width: 440px;
+		height: 50px;
+		float: left;
+		padding-left: 10px;
+		margin: 5px 0;
+		margin-right: 6px;
+		font-size: 19px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+		border: 1px solid #EEEEEE;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		-o-appearance: none;
+		appearance: none;
+		background-repeat: no-repeat;
+		background-image: url(imagens/icon13.png);
+		background-position: 400px center;
+	}
+
+	.select-a-cadastro-correspondencia option,.select-a-cadastro-ocorrencia option{
+		font-size: 19px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+
+	}
+
+	.textarea-cadastro-correspondencia,.textarea-cadastro-ocorrencia{
+		width: 598px;
+		height: 188px;
+		max-height: 230px;
+		max-width: 900px;
+		padding-left: 10px;
+		padding-top: 10px;
+		border: 1px solid #EEEEEE;
+		font-size: 19px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+	}
+
+	#span-img-cadastro-ocorrencia{
+		float: left;
+		width: 370px;
+		height: 165px;
+		margin: 10px;
+		background-repeat: no-repeat;
+		background-image: url(imagens/icon-f-02.png);
+	}
+
+	#span-img-cadastro-ocorrencia img{
+		float: left;
+		width: 370px;
+		height: 165px;
+	}
+
+	.botao-foto-cadastro-ocorrencia{
+		float: left;
+		width: auto;
+		height: auto;
+		margin: 10px 0 15px 30px;
+		}
+
+	#lado-a-fomulario-pre-reserva{
+		width: 240px;
+		height: auto;
+		float: left;
+		margin-right: 5px;
+	}
+
+	#ul-lado-a-fomulario-pre-reserva{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 5px;
+	}
+
+	.li-ul-lado-a-fomulario-pre-reserva{
+		width: 230px;
+		height: auto;
+		float: left;
+		min-height: 45px;
+		margin: 0 4px 5px ;
+		border: 1px solid #EEEEEE;
+	}
+
+	.h2-titulo-li-ul-lado-a-fomulario-pre-reserva{
+		width: 100%;
+		height: 33px;
+		padding-top: 12px;
+		text-align: center;
+		float: left;
+		font-size: 20px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #777777;
+		cursor: pointer;
+		border-bottom: 1px solid #EEEEEE;
+	}
+
+	#lado-b-fomulario-pre-reserva{
+		width: 705px;
+		height: auto;
+		float: left;
+	}
+
+	.textarea-pre-reserva{
+		width: 428px;
+		height: 148px;
+		max-height: 200px;
+		max-width: 550px;
+		padding-left: 10px;
+		padding-top: 10px;
+		border: 1px solid #EEEEEE;
+		font-size: 19px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+	}
+
+	.label-hr-inicio,.label-hr-final,.label-data-reserva{
+		width: 200px;
+		height: auto;
+		float: left;
+		margin:15px;
+		padding: 5px 0; 
+	}
+
+	.select-hr-inicio,.select-hr-final{
+		width: 50px;
+		height: 25px;
+		margin: 8px;
+		float: left;
+		text-align: center;
+		
+		font-size: 15px;
+		font-family: 'ralewayregular';
+		font-weight: normal;
+		color: #666666;
+	}
+
+	#bloco-lado-b-home-logado{
+		width: 730px;
+		height: 300px;
+		float: left;
+		margin: 10px 0;
+		background-color: rgba(34,34,34, 0.4);
+	}
+        
+        .bar {
+            background-color: #b4f5b4;
+            width: 0px;
+            height: 20px;
+            border-radius: 3px;
+        }
+
+        .progress{
+            visibility: hidden;
+        }
+	
+        input, textarea, select{
+            border: 1px solid #EEEEEE;
+        }
+/* fim conteudo site */

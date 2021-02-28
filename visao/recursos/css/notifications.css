@@ -1,0 +1,69 @@
+.header_fanpage.container .popover {
+  top: 50px;
+  left: -155px;
+  width: 330px;
+  z-index: 999;
+}
+.header_fanpage.container .popover-content::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  -webkit-border-radius: 16px;
+}
+.header_fanpage.container .popover-content::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+  -webkit-border-radius: 10px;
+}
+.header_fanpage.container .popover-content::-webkit-scrollbar-thumb:vertical {
+  height: 2px;
+  background-color: #666;
+  -webkit-border-radius: 10px;
+}
+.header_fanpage.container .popover-content::-webkit-scrollbar-thumb:horizontal {
+  width: 2px;
+  background-color: #666;
+  -webkit-border-radius: 10px;
+}
+.header_fanpage.container .popover .avt_content {
+  width: 50px;
+  float: left;
+  height: 50px;
+}
+.notificationinfo {
+  color: #333;
+  font-size: 12px;
+  margin-left: 10px;
+  position: relative;
+  max-width: 250px;
+  overflow: hidden;
+}
+.header_fanpage.container .popover .avt_activitycreator {
+  top: 0;
+  margin: 0;
+}
+.header_fanpage.container .popover-content {
+  padding: 0;
+  max-height: 290px;
+  overflow: auto;
+}
+.header_fanpage.container .popover-content ul {
+  margin: 0;
+}
+.header_fanpage.container .popover-content li {
+  padding: 10px 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.header_fanpage.container .popover-content li:hover {
+  background-color: rgba(42, 160, 98, 0.1);
+}
+.popover-content .loading {
+  background: url(https://s3-sa-east-1.amazonaws.com/condomundo/Images/icons/loadingg.gif) no-repeat top left;
+  width: 15px;
+  height: 15px;
+  text-indent: -9999px;
+  border: 0;
+  margin-left: 49%;
+}
+.popover-content i {
+  font-style: normal;
+  color: #2AA00E;
+}

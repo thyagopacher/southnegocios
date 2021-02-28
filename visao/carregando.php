@@ -1,0 +1,1 @@
+<img src="../visao/recursos/img/carregando.gif" id="carregando" alt="carregando informações para a tela" title="carregando informações para a tela"/>
